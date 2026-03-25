@@ -1,0 +1,32 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.visionlife/
+
+# Generated runs / dashboards / inboxes
+rich_run_*/
+test_run/
+test_dashboard/
+test_batch_*/
+test_inbox/
+metadata_check_3953/
+Life_Dashboard/
+ID/
+
+# Local app state
+visionlife/app_assets/VisionLife_dashboard_images/
+visionlife/app_assets/Visionlife dashboard visual resource/
+
+# Xcode
+DerivedData/
+.xcode-derived/
+*.xcuserstate
+xcuserdata/
+
+# Logs
+*.log
