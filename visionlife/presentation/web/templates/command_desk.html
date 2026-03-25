@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VisionLife Command Desk</title>
+  <style>{{styles}}</style>
+</head>
+<body class="command-desk-body">
+  <!--
+    Command desk page shell.
+    This template owns the outer visual structure only:
+    background, header, timeline, tracker panel, drawer, footer.
+    The page-specific HTML fragments are injected from Python.
+  -->
+  <main class="desk-shell">
+    <div class="desk-background">
+      {{background_media}}
+      <div class="background-caption">{{background_caption}}</div>
+    </div>
+    <section class="desk-frame">
+      <header class="desk-header">
+        <div class="desk-utility-bar">
+          <a class="desk-utility-link" href="/artifacts">Artifacts</a>
+          <a class="desk-utility-link" href="/archived">Archived</a>
+        </div>
+        <div class="command-inscription editable-text" data-config-key="inscription" contenteditable="true" spellcheck="false">{{inscription}}</div>
+        <div class="command-affirmation editable-text" data-config-key="affirmation" contenteditable="true" spellcheck="false">{{affirmation}}</div>
+        <div class="command-rotating-wrap">
+          <div class="command-rotating editable-text" data-config-key="rotating_phrase" contenteditable="true" spellcheck="false">{{rotating_phrase}}</div>
+          <button type="button" class="edit-hover-button" onclick="saveDashboardConfig()">Save words</button>
+        </div>
+      </header>
+      {{timeline_html}}
+      <section class="desk-main">
+        <section class="tracker-panel">
+          {{grid_html}}
+          {{weekly_cards}}
+        </section>
+        {{drawer_html}}
+      </section>
+      <div class="desk-footer">Source: {{dashboard_source}}</div>
+    </section>
+  </main>
+  {{calendar_dialog}}
+  {{bootstrap_script}}
+  <script>{{script}}</script>
+</body>
+</html>

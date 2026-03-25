@@ -1,0 +1,22 @@
+<!--
+  Right drawer shell.
+  The same template is used for:
+  1. standard artifact review rows
+  2. the To-Do list capture/review row
+  The top_controls and stream_html regions determine which variant it becomes.
+-->
+<aside class="right-drawer">
+  <div class="drawer-head">
+    <div class="drawer-overline">{{overline}}</div>
+    <h2>{{title}}</h2>
+    <div class="drawer-subline">{{subline}}</div>
+  </div>
+  {{top_controls}}
+  <div class="drawer-summary">{{summary}}</div>
+  {{actions_html}}
+  <section class="drawer-stream">{{stream_html}}</section>
+  <section class="drawer-tasks">
+    <div class="drawer-group-label">Open Loop</div>
+    <ul>{{tasks_html}}</ul>
+  </section>
+</aside>

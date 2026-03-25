@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VisionLife Artifact Review</title>
+  <style>{{styles}}</style>
+</head>
+<body class="command-desk-body">
+  <main class="desk-shell artifact-shell">
+    <section class="desk-frame artifact-frame-page">
+      <header class="desk-header artifact-page-header">
+        <div class="desk-utility-bar">
+          <a class="desk-utility-link" href="/">Back to tracker</a>
+          <a class="desk-utility-link" href="/artifacts">Active</a>
+          <a class="desk-utility-link" href="/archived">Archived</a>
+        </div>
+        <div class="command-inscription">VisionLife Artifact Review</div>
+        <div class="artifact-page-copy">{{page_copy}}</div>
+      </header>
+      <section class="artifact-toolbar">
+        <div class="artifact-toolbar-copy">{{artifact_count}} items</div>
+      </section>
+      <section class="artifact-grid">
+        {{cards_html}}
+      </section>
+    </section>
+  </main>
+  {{calendar_dialog}}
+  {{bootstrap_script}}
+  <script>{{script}}</script>
+</body>
+</html>

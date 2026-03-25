@@ -1,0 +1,261 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000011000000100000001 /* VisionLifeMobileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000111000000100000001 /* VisionLifeMobileApp.swift */; };
+		A10000021000000100000001 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000121000000100000001 /* ContentView.swift */; };
+		A10000031000000100000001 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000131000000100000001 /* APIClient.swift */; };
+		A10000041000000100000001 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000141000000100000001 /* Models.swift */; };
+		A10000051000000100000001 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000151000000100000001 /* DashboardViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A10000111000000100000001 /* VisionLifeMobileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionLifeMobileApp.swift; sourceTree = "<group>"; };
+		A10000121000000100000001 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A10000131000000100000001 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		A10000141000000100000001 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		A10000151000000100000001 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		A10000161000000100000001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A10000171000000100000001 /* VisionLifeMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionLifeMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A10000211000000100000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A10000311000000100000001 = {
+			isa = PBXGroup;
+			children = (
+				A10000321000000100000001 /* VisionLifeMobile */,
+				A10000331000000100000001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A10000321000000100000001 /* VisionLifeMobile */ = {
+			isa = PBXGroup;
+			children = (
+				A10000111000000100000001 /* VisionLifeMobileApp.swift */,
+				A10000121000000100000001 /* ContentView.swift */,
+				A10000131000000100000001 /* APIClient.swift */,
+				A10000141000000100000001 /* Models.swift */,
+				A10000151000000100000001 /* DashboardViewModel.swift */,
+				A10000161000000100000001 /* Info.plist */,
+			);
+			path = VisionLifeMobile;
+			sourceTree = "<group>";
+		};
+		A10000331000000100000001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A10000171000000100000001 /* VisionLifeMobile.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A10000411000000100000001 /* VisionLifeMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10000611000000100000001 /* Build configuration list for PBXNativeTarget "VisionLifeMobile" */;
+			buildPhases = (
+				A10000511000000100000001 /* Sources */,
+				A10000211000000100000001 /* Frameworks */,
+				A10000521000000100000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VisionLifeMobile;
+			productName = VisionLifeMobile;
+			productReference = A10000171000000100000001 /* VisionLifeMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A10000421000000100000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1700;
+				LastUpgradeCheck = 1700;
+				TargetAttributes = {
+					A10000411000000100000001 = {
+						CreatedOnToolsVersion = 17.0;
+					};
+				};
+			};
+			buildConfigurationList = A10000621000000100000001 /* Build configuration list for PBXProject "VisionLifeMobile" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A10000311000000100000001;
+			productRefGroup = A10000331000000100000001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A10000411000000100000001 /* VisionLifeMobile */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A10000521000000100000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A10000511000000100000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000031000000100000001 /* APIClient.swift in Sources */,
+				A10000021000000100000001 /* ContentView.swift in Sources */,
+				A10000051000000100000001 /* DashboardViewModel.swift in Sources */,
+				A10000041000000100000001 /* Models.swift in Sources */,
+				A10000011000000100000001 /* VisionLifeMobileApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A10000711000000100000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A10000721000000100000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A10000731000000100000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = VisionLifeMobile/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = VisionLife;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.visionlife.mobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A10000741000000100000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = VisionLifeMobile/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = VisionLife;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.visionlife.mobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A10000611000000100000001 /* Build configuration list for PBXNativeTarget "VisionLifeMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000731000000100000001 /* Debug */,
+				A10000741000000100000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10000621000000100000001 /* Build configuration list for PBXProject "VisionLifeMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000711000000100000001 /* Debug */,
+				A10000721000000100000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A10000421000000100000001 /* Project object */;
+}

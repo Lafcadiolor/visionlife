@@ -1,0 +1,145 @@
+{
+  "identity": {
+    "inscription": "Think About It In A Different Way. Ask Questions. I Shall",
+    "affirmation": "I Deserve It!",
+    "rotating_phrase": "If not now, when",
+    "background_caption": "If not now, when",
+    "background_image_path": ""
+  },
+  "groups": [
+    {
+      "id": "morning",
+      "label": "Morning",
+      "color": "#f3c74d",
+      "rows": [
+        {
+          "id": "meditate",
+          "label": "Meditate",
+          "mode": "streak"
+        },
+        {
+          "id": "journal",
+          "label": "Write in journal",
+          "mode": "streak"
+        },
+        {
+          "id": "vitamins",
+          "label": "Vitamins",
+          "mode": "streak"
+        }
+      ]
+    },
+    {
+      "id": "work",
+      "label": "Do The Work",
+      "color": "#ef6a4a",
+      "rows": [
+        {
+          "id": "exercise",
+          "label": "Exercise",
+          "mode": "standard"
+        },
+        {
+          "id": "client_work",
+          "label": "Client work",
+          "mode": "standard"
+        },
+        {
+          "id": "ai_experiment",
+          "label": "Spend one hour a day experimenting with AI",
+          "mode": "analysis"
+        },
+        {
+          "id": "lec_consulting",
+          "label": "LEC Consulting",
+          "mode": "standard"
+        },
+        {
+          "id": "network_search",
+          "label": "Network/Job Search",
+          "mode": "standard"
+        },
+        {
+          "id": "priority_thing",
+          "label": "Do 1st priority thing on my project list today",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": "social",
+      "label": "Social",
+      "color": "#c98ae0",
+      "rows": [
+        {
+          "id": "friend_family",
+          "label": "Reach out to friend or family",
+          "mode": "standard"
+        },
+        {
+          "id": "mentor",
+          "label": "Reach out to mentor or mentee",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": "admin",
+      "label": "Admin",
+      "color": "#d8d6d0",
+      "rows": [
+        {
+          "id": "todo",
+          "label": "To-Do list",
+          "mode": "todo"
+        }
+      ]
+    },
+    {
+      "id": "health",
+      "label": "Health",
+      "color": "#d7e6ef",
+      "rows": [
+        {
+          "id": "sobriety",
+          "label": "Sobriety",
+          "mode": "streak"
+        },
+        {
+          "id": "movement",
+          "label": "Movement",
+          "mode": "streak"
+        },
+        {
+          "id": "home",
+          "label": "Home",
+          "mode": "standard"
+        }
+      ]
+    },
+    {
+      "id": "heart",
+      "label": "Heart",
+      "color": "#dfe7d4",
+      "rows": [
+        {
+          "id": "relationship",
+          "label": "Relationship",
+          "mode": "analysis"
+        }
+      ]
+    },
+    {
+      "id": "fun",
+      "label": "Fun",
+      "color": "#f0d7b8",
+      "rows": [
+        {
+          "id": "fun",
+          "label": "Fun",
+          "mode": "standard"
+        }
+      ]
+    }
+  ]
+}
